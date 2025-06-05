@@ -4,7 +4,6 @@ import io
 import matplotlib.pyplot as plt
 
 def create_pdf(text_content, selected_criteria, chart_fig=None):
-    """Create a PDF document containing the supplier evaluation report"""
     try:
         pdf = FPDF()
         pdf.add_page()
